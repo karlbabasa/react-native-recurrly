@@ -5,11 +5,11 @@ import {styled} from "nativewind";
 
 const SafeAreaView = styled(RNSafeAreaView);
 
-const Settings = () => {
+const Subscriptions = () => {
     return (
         <SafeAreaView className="flex-1 bg-background p-5">
-            <Text>Settings</Text>
+            <Text>Subcriptions</Text>
         </SafeAreaView>
     )
 }
-export default Settings
+export default Subscriptions
