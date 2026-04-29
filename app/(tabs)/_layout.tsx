@@ -7,7 +7,7 @@ import {Image} from "react-native";
 import {useSafeAreaInsets} from "react-native-safe-area-context";
 
 const tabBar = components.tabBar;
-
+console.log("TAB app/_layout.tsx LOADED");
 const TabIcon = ({focused, icon}: TabIconProps) => {
     return (
         <View className="tabs-icon">
